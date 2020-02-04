@@ -5,7 +5,6 @@ Learn basic commands for Linux, a free and open-source operating system.
   <img src=https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/linux_terminal.png
 </p>
 
-
 ## What is Linux?
 
 <p align="center">
@@ -24,6 +23,7 @@ Linux is Mainly used in servers. About 90% of the internet is powered by Linux s
 ## Linux Shell or "Terminal"
 
 So, basically, a shell is a program that receives commands from the user and gives it to the OS to process, and it shows the output.To open the terminal, press Ctrl+Alt+T in Ubuntu, or press Alt+F2, type in gnome-terminal, and press enter. 
+
 <p align="center">
   <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/command_line_terminal.png
 </p>
