@@ -27,28 +27,57 @@ So, basically, a shell is a program that receives commands from the user and giv
 ## Linux Commands
 
 ### Basic Commands
+1.pwd — When you first open the terminal, you are in the home directory of your user. To know which directory you are in, you can use the “pwd” command. It gives us the absolute path, which means the path that starts from the root. The root is the base of the Linux file system. It is denoted by a forward slash( / ). The user directory is usually something like "/home/username".
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/pwd.png">
+</p>
 
-1. pwd — When you first open the terminal, you are in the home directory of your user. To know which directory you are in, you can use the “pwd” command. It gives us the absolute path, which means the path that starts from the root. The root is the base of the Linux file system. It is denoted by a forward slash( / ). The user directory is usually something like "/home/username".
+2.ls — Use the "ls" command to know what files are in the directory you are in. You can see all the hidden files by using the command “ls -a”.
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/ls.png">
+</p>
 
-2. ls — Use the "ls" command to know what files are in the directory you are in. You can see all the hidden files by using the command “ls -a”.
-
-3. cd — Use the "cd" command to go to a directory. For example, if you are in the home folder, and you want to go to the downloads folder, then you can type in “cd Downloads”. Remember, this command is case sensitive, and you have to type in the name of the folder exactly as it is. 
+3.cd — Use the "cd" command to go to a directory. For example, if you are in the home folder, and you want to go to the downloads folder, then you can type in “cd Downloads”. Remember, this command is case sensitive, and you have to type in the name of the folder exactly as it is. 
 To go back from a folder to the folder before that, you can type “cd ..” . The two dots represent back.
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/cd.png">
+</p>
 
-4. mkdir — Use the mkdir command when you need to create a folder or a directory.
+4.mkdir — Use the mkdir command when you need to create a folder or a directory.
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/mkdir.png">
+</p>
 
-5. rmdir  — Use rmdir to delete a directory. But rmdir can only be used to delete an empty directory. To delete a directory containing files, use rm.
+5.rmdir  — Use rmdir to delete a directory. But rmdir can only be used to delete an empty directory. To delete a directory containing files, use rm.
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/rmdir.png">
+</p>
 
 6.rm - Use the rm command to delete files and directories.  Use "rm -r" to delete just the directory. It deletes both the folder and the files it contains when using only the rm command.
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/rm.png">
+</p>
 
-7. touch — The touch command is used to create a file. It can be anything, from an empty txt file to an empty zip file. For example, “touch new.txt”.
+7.touch — The touch command is used to create a file. It can be anything, from an empty txt file to an empty zip file. For example, “touch new.txt”.
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/touch.png">
+</p>
 
-8. cp — Use the cp command to copy files through the command line. It takes two arguments: The first is the location of the file to be copied, the second is where to copy.
+8.cp — Use the cp command to copy files through the command line. It takes two arguments: The first is the location of the file to be copied, the second is where to copy.
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/cp.png">
+</p>
 
-9. mv — Use the mv command to move files through the command line. We can also use the mv command to rename a file.
+9.mv — Use the mv command to move files through the command line. We can also use the mv command to rename a file.
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/mv.png">
+</p>
 
-10. help  — To get help in Linux type -help or -h .
- 
+10.help  — To get help in Linux type -help or -h .
+ <p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/help.png">
+</p>
+
  ### Intermediate Commands
  
  1.echo — The "echo" command helps us move some data, usually text into a file. For example, if you want to create a new text file or add to an already made text file, you just need to type in,EXAMPLE : “ echo HEllo, My name is Shivani . I am from India >> new.txt"
