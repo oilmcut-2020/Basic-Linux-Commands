@@ -82,26 +82,57 @@ To go back from a folder to the folder before that, you can type “cd ..” . T
  
  1.echo — The "echo" command helps us move some data, usually text into a file. For example, if you want to create a new text file or add to an already made text file, you just need to type in,EXAMPLE : “ echo HEllo, My name is Shivani . I am from India >> new.txt"
  
- 2.  cat — Use the cat command to display the contents of a file. It is usually used to easily view programs.
- 
- 3. nano, vi — nano and vi are already installed text editors in the Linux command line. The nano command is a good text editor that denotes keywords with color and can recognize most languages. And vi is simpler than nano. You can create a new file or modify a file using this editor.You can save your files after editing by using the sequence Ctrl+X, then Y (or N for no).
- 
- 4. sudo — A widely used command in the Linux command line, sudo stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command.You can also use the command “su” to do this, but you need to set a root password before that. For that, you can use the command “sudo passwd” *(not misspelled, it is passwd).* Then type in the new root password.
- 
- 5. df — Use the df command to see the available disk space in each of the partitions in your system. You can just type in df in the command line and you can see each mounted partition and their used/available space in % and in KBs. If you want it shown in megabytes, you can use the command “df -m”.
- 
-6. du — Use du to know the disk usage of a file in your system. If you want to know the disk usage for a particular folder or file in Linux, you can type in the command df and the name of the folder or file. 
- 
-7. tar — Use tar to work with tarballs (or files compressed in a tarball archive) in the Linux command line. It has a long list of uses. It can be used to compress and uncompress different types of tar archives like .tar, .tar.gz, .tar.bz2,etc.
+ 2.cat — Use the cat command to display the contents of a file. It is usually used to easily view programs.
+  <p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/cat.png">
+</p>
+
+ 3.nano, vi — nano and vi are already installed text editors in the Linux command line. The nano command is a good text editor   that denotes keywords with color and can recognize most languages. And vi is simpler than nano. You can create a new file or modify a file using this editor.You can save your files after editing by using the sequence Ctrl+X, then Y (or N for no).
+  <p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/nano.png">
+</p>
+
+ <p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/vi.png">
+</p>
+
+ 4.sudo — A widely used command in the Linux command line, sudo stands for "SuperUser Do". So, if you want any command to be done with administrative or root privileges, you can use the sudo command.You can also use the command “su” to do this, but you need to set a root password before that. For that, you can use the command “sudo passwd” *(not misspelled, it is passwd).* Then type in the new root password.
+  <p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/sudo.png">
+</p>
+
+ 5.df — Use the df command to see the available disk space in each of the partitions in your system. You can just type in df in the command line and you can see each mounted partition and their used/available space in % and in KBs. If you want it shown in megabytes, you can use the command “df -m”.
+  <p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/df.png">
+</p>
+
+6.du — Use du to know the disk usage of a file in your system. If you want to know the disk usage for a particular folder or file in Linux, you can type in the command df and the name of the folder or file. 
+  <p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/du.png">
+</p>
+
+7.tar — Use tar to work with tarballs (or files compressed in a tarball archive) in the Linux command line. It has a long list of uses. It can be used to compress and uncompress different types of tar archives like .tar, .tar.gz, .tar.bz2,etc.
 
 8. zip, unzip — Use zip to compress files into a zip archive, and unzip to extract files from a zip archive.
 
 9.uname — Use uname to show the information about the system your Linux distro is running. Using the command “uname -a” prints most of the information about the system. This prints the kernel release date, version, processor type, etc.
+ <p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/uname.png">
+</p>
 
-10. apt-get — Use apt to work with packages in the Linux command line. Use apt-get to install packages. This requires root privileges, so use the sudo command with it.You can do that by typing “sudo apt-get update”. You can upgrade the system by typing “sudo apt-get upgrade”.
+10.apt-get — Use apt to work with packages in the Linux command line. Use apt-get to install packages. This requires root privileges, so use the sudo command with it.You can do that by typing “sudo apt-get update”. You can upgrade the system by typing “sudo apt-get upgrade”.
+ <p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/apt-get.png">
+</p>
 
-11. chmod — Use chmod to make a file executable and to change the permissions granted to it in Linux.
+11.chmod — Use chmod to make a file executable and to change the permissions granted to it in Linux.
 
-12. hostname — Use hostname to know your name in your host or network. Basically, it displays your hostname and IP address. Just typing “hostname” gives the output. Typing in “hostname -I” gives you your IP address in your network.
+12.hostname — Use hostname to know your name in your host or network. Basically, it displays your hostname and IP address. Just typing “hostname” gives the output. Typing in “hostname -I” gives you your IP address in your network.
+ <p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/hostname.png">
+</p>
 
 13.ping — Use ping to check your connection to a server. Wikipedia says, "Ping is a computer network administration software utility used to test the reachability of a host on an Internet Protocol (IP) network". Simply, when you type in, for example, “ping google.com”, it checks if it can connect to the server and come back.
+ <p align="center">
+  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/ping.png">
+</p>
