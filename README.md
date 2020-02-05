@@ -138,3 +138,10 @@ To go back from a folder to the folder before that, you can type “cd ..” . T
  <p align="center">
   <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/images/ping.png">
 </p>
+
+## Tips and Tricks for Using Linux Command Line
+- You can use the clear command to clear the terminal if it gets filled up with too many commands.
+- TAB can be used to fill up in terminal. For example, You just need to type “cd Doc” and then TAB and the terminal fills the rest up and makes it “cd Documents”.
+- Ctrl+C can be used to stop any command in terminal safely. If it doesn't stop with that, then Ctrl+Z can be used to force stop it.
+- You can exit from the terminal by using the exit command.
+- You can power off or reboot the computer by using the command sudo halt and sudo reboot.
