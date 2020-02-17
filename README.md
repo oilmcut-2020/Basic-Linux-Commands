@@ -1,5 +1,6 @@
 # Basic-Linux-Commands
-Author- Shivani Baldwa
+
+**Managed by - Shivani Baldwa**
 
 Learn basic commands for Linux, a free and open-source operating system.
 <p align="center">
